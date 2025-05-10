@@ -9994,3 +9994,17 @@ h6,
   object-position: center;
 }
 
+/* Smooth scale effect on hover */
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: subtle text color change */
+.hover-text:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
